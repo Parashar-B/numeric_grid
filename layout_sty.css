@@ -1,0 +1,17 @@
+body{
+    background-color:lightblue;
+}
+
+h2{
+    position: absolute;
+    left:594px;
+    margin-top: 0px;
+    font-family: 'Dosis', sans-serif;
+    width:180px;
+    height:45px;
+    color:orange;
+    background-color: black;
+    text-align: center;
+    padding:10px 0px 0px 0px;
+    border-radius: 10px;
+}
