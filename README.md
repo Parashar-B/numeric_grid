@@ -1,2 +1,2 @@
 # numeric_grid
-Different Manipulation of NUMBERS in various GRIDS
+Different Numeric Operation in Grid Layout
