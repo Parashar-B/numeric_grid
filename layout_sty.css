@@ -26,45 +26,21 @@ hr{
     border: none;
 }
 
-#prime_number{
+.main_div{
     position: absolute;
-    top:90px;
-    left:210px;   
-    
+    top:100px;
+    left:200px;
+    width:964px;
+    border-radius: 10px;;
 }
 
-#factorial_number{
-    position: absolute;
-    top:90px;
-    left:532px;    
-}
-
-#square_root{
-    position: absolute;
-    top:90px;
-    left:855px;
-}
-
-#binary_number{
-    position: absolute;
-    top:230px;
-    left:208px;
-}
-
-#hexadecimal_number{
-    position: absolute;
-    top:230px;
-    left:532px;
-}
-
-#octal_number{
-    position: absolute;
-    top:230px;
-    left:856px;
+#grid_div{
+    background-color:darkgreen;
+    height:400px;
 }
 
 .grid{
-    width:300px;
+    width:280px;
     height:100px;
     background-color:gray;
     box-shadow: 0px 0px 2px 5px black;
@@ -80,6 +56,43 @@ hr{
     background-color:orange;
 }
 
+#prime_number{
+    position: absolute;
+    top:30px;
+    left:30px;   
+    
+}
+
+#factorial_number{
+    position: absolute;
+    top:30px;
+    left:342px;    
+}
+
+#square_root{
+    position: absolute;
+    top:30px;
+    left:654px;
+}
+
+#binary_number{
+    position: absolute;
+    top:162px;
+    left:30px;
+}
+
+#hexadecimal_number{
+    position: absolute;
+    top:162px;
+    left:342px;
+}
+
+#octal_number{
+    position: absolute;
+    top:162px;
+    left:654px;
+}
+
 #help{
     position: absolute;
     top:35px;
@@ -88,7 +101,41 @@ hr{
     font-weight: bold;
     cursor: pointer;
     background-color:black;
-    color:orange;
+    color:lightgray;
     box-shadow: 0px 0px 2px 2px black;
-    border-radius: 5px;
+    border-radius: 2px;
+}
+
+#help:hover{
+    color:orange;
+}
+
+#help_div{
+    background-color: black;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    height:400px;
+}
+
+#heading_span{
+    padding-top: 50px;
+    color:orange
+}
+
+.btn{
+    background-color:indigo;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0px 0px 2px 2px gray;
+}
+
+#home_button{
+    position: relative;
+    top:50px;
+    width:150px;
+    height:40px;
 }

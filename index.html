@@ -5,16 +5,29 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="layout_sty.css">
+        <script src="number_control.js"></script>
     </head>
     <body>
         <hr>
         <h2>NUMERIC-GRID</h2>
-        <button id="help">WHAT IS NUMERIC-GRID ?</button>
-        <button class="grid" id="prime_number">[ PRIME NUMBER ]</button>
-        <button class="grid" id="factorial_number">[ FACTORIAL NUMBER ]</button>
-        <button class="grid" id="square_root">[ SQUARE ROOT ]</button>
-        <button class="grid" id="binary_number">[ BINARY NUMBER ]</button>
-        <button class="grid" id="hexadecimal_number">[ HEXADECIMAL NUMBER ]</button>
-        <button class="grid" id="octal_number">[ OCTAL NUMBER ]</button>
+        <button id="help" onclick="show_me('h')">WHAT IS NUMERIC-GRID ?</button>
+        <div class="main_div" id="help_div">
+            <p>
+                <span id="heading_span">What is NUMERIC-GRID ?</span><br><br><br>
+                NUMERIC-GRID helps you in some different Numeric(number-related) calculation providing an "easy to use" UI.
+                <br><br> Calculations Like "Prime Number Within a Range, Factorial of a Number, Square-Root" can easily be done using it.
+                <br><br>It also helps you in different Number-System conversions such as "Binary to Hexadecimal, Octal to Decimal etc."
+                <br><br> with vice-versa and Other operation like "Leap Year checker" is also available.
+            </p>
+            <button class="btn" id="home_button" onclick="show_me('g')">Back to Home</button>
+        </div>
+        <div class="main_div" id="grid_div">
+            <button class="grid" id="prime_number">[ PRIME NUMBER ]</button>
+            <button class="grid" id="factorial_number">[ FACTORIAL NUMBER ]</button>
+            <button class="grid" id="square_root">[ SQUARE ROOT ]</button>
+            <button class="grid" id="binary_number">[ BINARY NUMBER ]</button>
+            <button class="grid" id="hexadecimal_number">[ HEXADECIMAL NUMBER ]</button>
+            <button class="grid" id="octal_number">[ OCTAL NUMBER ]</button>
+        </div>
     </body>
 </html>
