@@ -1,5 +1,15 @@
 body{
-    background-color:darkcyan;
+    background-color:black;
+}
+
+#back_ground{
+    position: absolute;
+    top:33px;
+    left:280px;
+    width:810px;
+    height:570px;
+    border-radius: 0px 10px 10px 10px;
+    border:2px solid orange;
 }
 
 h2{
@@ -17,30 +27,22 @@ h2{
     box-shadow: 0px 0px 3px 3px orange;
 }
 
-hr{
-    position: absolute;
-    top:25px;
-    height: 2px;
-    width:1350px;
-    background-color: black;
-    border: none;
-}
-
 .main_div{
     position: absolute;
     top:100px;
-    left:200px;
-    width:964px;
+    left:320px;
+    width:730px;
     border-radius: 10px;;
 }
 
 #grid_div{
     background-color:darkgreen;
-    height:400px;
+    height:450px;
+    
 }
 
 .grid{
-    width:280px;
+    width:210px;
     height:100px;
     background-color:gray;
     box-shadow: 0px 0px 2px 5px black;
@@ -48,8 +50,8 @@ hr{
     color:black;
     font-family: 'Agency FB';
     cursor: pointer;
-    font-size: xx-large;
-    
+    font-size:x-large;
+    border-radius: 10px;;
 }
 
 .grid:hover{
@@ -66,13 +68,13 @@ hr{
 #factorial_number{
     position: absolute;
     top:30px;
-    left:342px;    
+    left:260px;    
 }
 
 #square_root{
     position: absolute;
     top:30px;
-    left:654px;
+    left:490px;
 }
 
 #binary_number{
@@ -84,43 +86,51 @@ hr{
 #hexadecimal_number{
     position: absolute;
     top:162px;
-    left:342px;
+    left:260px;
 }
 
 #octal_number{
     position: absolute;
     top:162px;
-    left:654px;
+    left:490px;
+}
+
+#leap_year{
+    position: absolute;
+    top:292px;
+    left:30px;
+    width:670px;
 }
 
 #help{
     position: absolute;
-    top:35px;
-    font-size:medium;
+    top:32px;
+    left:229px;
+    font-size:x-large;
     font-family: 'Agency FB';
     font-weight: bold;
     cursor: pointer;
-    background-color:black;
-    color:lightgray;
-    box-shadow: 0px 0px 2px 2px black;
-    border-radius: 2px;
+    background-color:orange;
+    color:black;
+    width: 50px;
+    height:50px;
+    border-right: none;
+    border-radius: 15px 0px 0px 15px;
 }
 
 #help:hover{
-    color:orange;
+    box-shadow: 0px 0px 2px 2px gray;
 }
 
 #help_div{
     background-color: black;
     color:white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
     height:400px;
-}
-
-#heading_span{
-    padding-top: 50px;
-    color:orange
+    width:720px;
+    left:330px;
+    font-size:14px;
+    visibility: hidden;
 }
 
 .btn{
@@ -134,8 +144,22 @@ hr{
 }
 
 #home_button{
-    position: relative;
-    top:50px;
+    position: absolute;
+    top:350px;
+    left:285px;
     width:150px;
     height:40px;
+}
+
+#footer{
+    position: absolute;
+    top:570px;
+    left:590px;
+    background-color:darkorange;
+    color: black;
+    width:175px;
+    height:17px;
+    font-family: 'Courier New';
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
 }
