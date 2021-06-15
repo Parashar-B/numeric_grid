@@ -8,5 +8,6 @@ function show_me(z){
       switch(z){
          case 'h' :document.getElementById("help_div").style.visibility="visible"; visible_div=document.getElementById("help_div"); break;
          case 'g' :document.getElementById("grid_div").style.visibility="visible"; visible_div=document.getElementById("grid_div"); break;
+         case 'm' :document.getElementById("math_div").style.visibility="visible"; visible_div=document.getElementById("math_div"); break;
       }
 }
