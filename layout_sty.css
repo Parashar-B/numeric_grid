@@ -1,15 +1,15 @@
 body{
-    background-color:black;
+    font-family:'Dosis', sans-serif;
 }
 
 #back_ground{
     position: absolute;
-    top:33px;
+    top:37px;
     left:280px;
-    width:810px;
+    width:808px;
     height:570px;
-    border-radius: 0px 10px 10px 10px;
-    border:2px solid orange;
+    background-color: lightgray;
+    box-shadow: 0px 3px 10px 4px gray;
 }
 
 h2{
@@ -23,8 +23,8 @@ h2{
     background-color: black;
     text-align: center;
     padding:10px 0px 0px 0px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 3px 3px orange;
+    border:2px solid orange;
+    box-shadow: 0px 0px 3px 3px black;
 }
 
 .main_div{
@@ -32,30 +32,28 @@ h2{
     top:100px;
     left:320px;
     width:730px;
-    border-radius: 10px;;
 }
 
 #grid_div{
-    background-color:darkgreen;
-    height:450px;
-    
+    height:480px;
 }
 
 .grid{
     width:210px;
     height:100px;
-    background-color:gray;
-    box-shadow: 0px 0px 2px 5px black;
+    background-color:darkgreen;
     text-align: center;
-    color:black;
-    font-family: 'Agency FB';
+    color:white;
+    font-family:'Dosis', sans-serif;
     cursor: pointer;
-    font-size:x-large;
-    border-radius: 10px;;
+    font-size:medium;
+    
 }
 
 .grid:hover{
     background-color:orange;
+    color: black;
+    box-shadow: 0px 0px 2px 2px black;
 }
 
 #prime_number{
@@ -104,10 +102,9 @@ h2{
 
 #help{
     position: absolute;
-    top:32px;
+    top:39px;
     left:229px;
     font-size:x-large;
-    font-family: 'Agency FB';
     font-weight: bold;
     cursor: pointer;
     background-color:orange;
@@ -115,7 +112,7 @@ h2{
     width: 50px;
     height:50px;
     border-right: none;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 25px 0px 0px 25px;
 }
 
 #help:hover{
@@ -123,13 +120,13 @@ h2{
 }
 
 #help_div{
-    background-color: black;
-    color:white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height:400px;
+    color:black;
+    height:450px;
     width:720px;
     left:330px;
-    font-size:14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:13px;
+    font-weight: bold;
     visibility: hidden;
 }
 
@@ -140,26 +137,32 @@ h2{
     cursor: pointer;
 }
 .btn:hover{
-    box-shadow: 0px 0px 2px 2px gray;
+    box-shadow: 0px 0px 2px 2px black;
 }
 
 #home_button{
     position: absolute;
-    top:350px;
+    top:380px;
     left:285px;
     width:150px;
     height:40px;
 }
+#math_div{
+    visibility: hidden;
+    color: white;
+    background-color:darkcyan;
+    height:450px;
+}
 
 #footer{
     position: absolute;
-    top:570px;
-    left:590px;
-    background-color:darkorange;
+    top:584px;
+    left:280px;
+    background-color:orange;
     color: black;
-    width:175px;
+    width:788px;
     height:17px;
-    font-family: 'Courier New';
+    text-align: center;
     padding: 5px 10px 5px 10px;
-    border-radius: 5px;
+    border-radius: 0px 0px 10px 10px;
 }
